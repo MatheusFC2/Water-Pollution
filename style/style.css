@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+/* Variavel - Font */
+:root {
+    --font-primary: "Poppins", serif;
+    --font-secundary: "Josefin Slab", serif;
+    --font-action: "Muli", serif;
+}
+
+.container {
+    margin: auto;
+    max-width: 1050px;
+    overflow-wrap: break-word;
+}
+
+
+
+.logo {
+    margin: absolute;
+    display: flex;
+}
+
+h4 {
+    opacity: 0.7;
+}
+
+.navbar-dark {
+    background-color: #32cd32;
+}
+
+.first-photo .photo-river-trash {
+    height: 30rem;
+}
+
+p {
+    padding-top: 1rem;
+    font-weight: 400;
+    font-size: 120%;
+}
