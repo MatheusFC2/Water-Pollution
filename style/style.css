@@ -11,6 +11,26 @@
     --font-action: "Muli", serif;
 }
 
+.navbar {
+    display: flex;
+    height: 3rem;
+
+}
+
+.navbar-dark {
+    background-color: #32cd32;
+}
+
+.navbar-brand {
+    margin-left: 26rem;
+}
+
+.navbar-nav {
+    max-width: 1050px;
+    overflow-wrap: break-word;
+    margin-left: 19rem;
+}
+
 .container {
     margin: auto;
     max-width: 1050px;
@@ -38,25 +58,31 @@
     max-height: 850px;
 }
 
+.first-photo .photo-river-trash {
+    height: 30rem;
+}
+
 .logo {
     margin: absolute;
     display: flex;
-}
-
-h4 {
-    opacity: 0.7;
-}
-
-.navbar-dark {
-    background-color: #32cd32;
-}
-
-.first-photo .photo-river-trash {
-    height: 30rem;
 }
 
 p {
     padding-top: 1rem;
     font-weight: 400;
     font-size: 120%;
+}
+
+h2 {
+    padding-top: 3rem;
+}
+
+h3 {
+    padding-top: 2rem;
+}
+
+h4 {
+    opacity: 0.7;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
